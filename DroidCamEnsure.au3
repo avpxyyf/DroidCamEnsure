@@ -1,5 +1,6 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Outfile_x64=DroidCamEnsure.exe
+#AutoIt3Wrapper_Change2CUI=y
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 If (Not FileExists("bin/adb.exe")) Or  (Not FileExists("bin/AdbWinApi.dll")) Or (Not FileExists("bin/AdbWinUsbApi.dll")) Then
